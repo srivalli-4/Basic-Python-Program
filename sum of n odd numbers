@@ -1,0 +1,3 @@
+sum=n=int(input("enter input="))
+n**2
+print("sum is:",sum)
