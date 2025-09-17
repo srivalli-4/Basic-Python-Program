@@ -1,0 +1,5 @@
+//get input from user and print it//
+name=input("enter your name")
+print("yourname:",name)
+//write a python program print your name//
+print("sri valli")
