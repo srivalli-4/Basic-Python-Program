@@ -1,0 +1,5 @@
+//input from user and print it//
+num1=num1=int(input("enter first number:"))
+num2=int(input("enter second number:"))
+print("first number:",num1);
+print("second number:",num2);
