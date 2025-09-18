@@ -1,17 +1,9 @@
-day=int(input("enter the day"))
-if(day==1):
-  print("Sunday")
-elif(day==2):
-  print("Monday")
-elif(day==3):
-  print("Tuesday")
-elif(day==4):
-  print("Wednesday")
-elif(day==5):
-  print("Thursday")
-elif(day==6):
-  print("Friday")
-elif(day==7):
-  print("Saturday")
+month=int(input("enter the month"))
+if (month==2):
+  print("28 or 29 days")
+elif (month==1 or month==3 or month==5 or month==7 or month==8 or month==10 or month==12):
+  print("31 days")
+elif (month==4 or month==6 or month==9 or month==11):
+  print("30 days")
 else:
-  print("it is invalid ")
+  print("invalid month ")
