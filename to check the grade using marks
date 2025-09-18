@@ -2,13 +2,13 @@ marks=int(input("enter your marks"))
 if (marks>=90):
   print("A")
   print("Excellent")
-elif(80>=marks<=70):
+elif(marks>=80 and marks<90):
   print("B")
   print("Good")
-elif(70>=marks<=50):
+elif(marks>=50 and marks<80):
   print("C")
   print("Average")
-elif(50>=marks<=40):
+elif(marks>=40 and marks<50):
   print("D")
   print("Require improvement")
 else:
